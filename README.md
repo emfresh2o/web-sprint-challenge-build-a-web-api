@@ -61,10 +61,20 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. The core features of Node.js and Express and why they are useful.
+--> One of the best web framework for web development is Express.js when using Node.js because is fast, robust and asynchronous which manages a server and routes.  It is designed to handle single-page to hybrid web applications because its robust capabilities making API routing easy.
+
 1. Understand and explain the use of Middleware?
+--> When accessing APIs it is best to use Middleware because middleware is a piece of software that will allow the system to isolate its functionalites when interacting with APIs.  An API middleware sits between a client level and the backend record, translating the requested execution within the core system of the backend record.
+
 1. The basic principles of the REST architectural style.
+--> REST principles are having uniform interface, its stateless, its cacheable, and its manageable when you use HTTP methods.
+
 1. Understand and explain the use of Express Routers.
+--> Express routers are small applications used when using Express.js.  They are methods that are attached to express class is use when requesting data of a given API. 
+
 1. Describe tooling used to manually test the correctness of an API.
+--> There many tools to test an APIs and one of the them is Postman.  You can manually test your API if it is working by plugging in the given request to HTTP calls and easily modify it.
+
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
@@ -72,12 +82,12 @@ You are expected to be able to answer questions in these areas. Your responses c
 
 ### Task 1: Project Set Up
 
-- [ ] Create a forked copy of this project
+- [√] Create a forked copy of this project
 - [ ] Add your team lead as collaborator on Github
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!)
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
-- [ ] Push commits: git push origin `<firstName-lastName>`
+- [√] Clone your OWN version of the repository (Not Lambda's by mistake!)
+- [√] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [√] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
+- [√] Push commits: git push origin `<firstName-lastName>`
 
 ### Task 2: Project Requirements
 
