@@ -83,4 +83,4 @@ router.get('/:id/action', (req, res) => {
     });
 });
 
-module.exports - router;
+module.exports = router;

@@ -13,6 +13,7 @@ server.use(helmet());
 server.get('/', (req, res) => {
   res.status(200).json({ message: 'The server is now LIVE!' });
 });
+
 server.use('/api/projects', projectRouter);
 server.use('/api/actions', actionRouter);
 module.exports = server;
