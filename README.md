@@ -61,20 +61,30 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. The core features of Node.js and Express and why they are useful.
---> One of the best web framework for web development is Express.js when using Node.js because is fast, robust and asynchronous which manages a server and routes.  It is designed to handle single-page to hybrid web applications because its robust capabilities making API routing easy.
+   --> One of the best web framework for web development is Express.js when using Node.js because is fast, robust and asynchronous which manages a server and routes. It is designed to handle single-page to hybrid web applications because its robust capabilities making API routing easy.
+   --> it sits on top of Node web server module.
+   --> it is essentially React - but for the backend;
+   --> it adds EXTRA FUNCTIONALITY!
+   --> Routing
+   --> Middleware support
+   --> A simple API
+
+Node just lets us run JavaScript outside of a browser - its a runtime environment
 
 1. Understand and explain the use of Middleware?
---> When accessing APIs it is best to use Middleware because middleware is a piece of software that will allow the system to isolate its functionalites when interacting with APIs.  An API middleware sits between a client level and the backend record, translating the requested execution within the core system of the backend record.
+   --> When accessing APIs it is best to use Middleware because middleware is a piece of software that will allow the system to isolate its functionalites when interacting with APIs. An API middleware sits between a client level and the backend record, translating the requested execution within the core system of the backend record.
+   --> Helmet is a middleware
+   --> it can change the request or the response objects, but it doesn't have to
+   --> it adds headers for security to your request
 
 1. The basic principles of the REST architectural style.
---> REST principles are having uniform interface, its stateless, its cacheable, and its manageable when you use HTTP methods.
+   --> REST principles are having uniform interface, its stateless, its cacheable, and its manageable when you use HTTP methods.
 
 1. Understand and explain the use of Express Routers.
---> Express routers are small applications used when using Express.js.  They are methods that are attached to express class is use when requesting data of a given API. 
+   --> Express routers are small applications used when using Express.js. They are methods that are attached to express class is use when requesting data of a given API.
 
 1. Describe tooling used to manually test the correctness of an API.
---> There many tools to test an APIs and one of the them is Postman.  You can manually test your API if it is working by plugging in the given request to HTTP calls and easily modify it.
-
+   --> There many tools to test an APIs and one of the them is Postman. You can manually test your API if it is working by plugging in the given request to HTTP calls and easily modify it.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
@@ -95,16 +105,16 @@ Your finished project must include all of the following requirements:
 
 #### NPM Scripts
 
-- [ ] An _npm script_ named _"server"_ that uses `nodemon`to run the API server.
-- [ ] Use _nodemon_ as a development time dependency only that is not deployed to production.
-- [ ] An _npm script_ named _"start"_ that uses `node` to run the API server.
+- [√] An _npm script_ named _"server"_ that uses `nodemon`to run the API server.
+- [√] Use _nodemon_ as a development time dependency only that is not deployed to production.
+- [√] An _npm script_ named _"start"_ that uses `node` to run the API server.
 
 #### Build an API
 
-- [ ] Design and build endpoints for performing CRUD operations on _projects_ and _actions_. When adding an action, make sure the `project_id` provided belongs to an existing `project`. If you try to add an action with an `id` of 3 and there is no project with that `id` the database will return an error.
-- [ ] Add an endpoint for retrieving the list of actions for a project.
-- [ ] Use an HTTP client like `postman` or `insomnia` to test the API's endpoints.
-- [ ] Use Express Routers to organize the API's code.
+- [√] Design and build endpoints for performing CRUD operations on _projects_ and _actions_. When adding an action, make sure the `project_id` provided belongs to an existing `project`. If you try to add an action with an `id` of 3 and there is no project with that `id` the database will return an error.
+- [√] Add an endpoint for retrieving the list of actions for a project.
+- [v] Use an HTTP client like `postman` or `insomnia` to test the API's endpoints.
+- [√] Use Express Routers to organize the API's code.
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. You will be scored on your adherence to proper code style and good organization. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
